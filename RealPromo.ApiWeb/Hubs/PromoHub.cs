@@ -21,8 +21,13 @@ namespace RealPromo.ApiWeb.Hubs
              * Filas
              * Notificar o usuario (SignalR)
              */
-            await Clients.Caller.SendAsync("Cadastrado com sucesso"); //notificar -> cadastro realizado com sucesso; metodo sendAsnyc() ele envia para o metodo javascript a informação, ele aciona o metodo javascript; como o metodo e assincrono tem que utilizar o await
+            await Clients.Caller.SendAsync("Cadastrado com sucesso"); //notificando -> cadastro realizado com sucesso;
             Clients.Others.SendAsync("ReceberPromocao", promocao); // ReceberPromocao - metodo javascript
         }
+
+        /*
+         * metodo sendAsnyc() ele envia para o metodo javascript a informação, ele aciona o metodo javascript;
+         * como o metodo e assincrono tem que utilizar o await
+         */
     }
 }
