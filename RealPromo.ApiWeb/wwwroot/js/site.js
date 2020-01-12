@@ -5,8 +5,16 @@ connection.start().then(function () {
 
 }).catch(function () {
     console.error(err.toString()); // retorna uma string informando que não houve a conexão
-
 }); // caso de erro entra no cacth, caso de certo entra no then
+
+connection.on("CadastradoSucesso", function () {
+    var mensagem = document.getElementById("Mensagem");
+    mensagem.innerHTML = "Cadastro de promoção realizado com sucesso!";
+});
+
+connection.on("ReceberPromocao", function (promocao) {
+    console.info(promocao);
+});
 
 var btnCadastrar = document.getElementById("BtnCadastrar");
 if (btnCadastrar != null) {
