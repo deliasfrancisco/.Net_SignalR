@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\delia\\Documents\\SignalR\\SignalR-Real Promo\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {}
+    "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\delia\\Documents\\SignalR\\SignalR-Real Promo\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {
+    "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delia\\Documents\\SignalR\\SignalR-Real Promo\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
+        "projectUniqueName": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
         "projectName": "RealPromo.ApiWeb",
-        "projectPath": "C:\\Users\\delia\\Documents\\SignalR\\SignalR-Real Promo\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
+        "projectPath": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
         "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delia\\Documents\\SignalR\\SignalR-Real Promo\\RealPromo.ApiWeb\\obj\\",
+        "outputPath": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\delia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,7 +74,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

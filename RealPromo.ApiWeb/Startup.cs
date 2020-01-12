@@ -34,7 +34,7 @@ namespace RealPromo.ApiWeb
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddSignalR();
+            services.AddSignalR(); // 1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,7 +67,7 @@ namespace RealPromo.ApiWeb
             {
                 cfg.MapHub<PromoHub>("/PromoHub");
                         
-            });
+            }); //2
         }
     }
 }
