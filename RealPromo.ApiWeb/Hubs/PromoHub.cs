@@ -22,7 +22,7 @@ namespace RealPromo.ApiWeb.Hubs
              * Notificar o usuario (SignalR)
              */
             await Clients.Caller.SendAsync("Cadastrado com sucesso"); //notificando -> cadastro realizado com sucesso;
-            Clients.Others.SendAsync("ReceberPromocao", promocao); // ReceberPromocao - metodo javascript
+            await Clients.Others.SendAsync("ReceberPromocao", promocao); // ReceberPromocao - metodo javascript
         }
 
         /*
