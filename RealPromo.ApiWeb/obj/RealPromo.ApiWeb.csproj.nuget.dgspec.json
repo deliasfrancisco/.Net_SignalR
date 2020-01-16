@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {}
+    "C:\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {
+    "C:\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
+        "projectUniqueName": "C:\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
         "projectName": "RealPromo.ApiWeb",
-        "projectPath": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
+        "projectPath": "C:\\.Net_SignalR\\RealPromo.ApiWeb\\RealPromo.ApiWeb.csproj",
         "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delia\\Documents\\GitHub\\.Net_SignalR\\RealPromo.ApiWeb\\obj\\",
+        "outputPath": "C:\\.Net_SignalR\\RealPromo.ApiWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
